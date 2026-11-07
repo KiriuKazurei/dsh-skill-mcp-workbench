@@ -1,0 +1,7 @@
+# One row for the Skill & MCP workbench. The Host half serves the authenticated
+# `/api/skill-mcp-workbench` route; the browser half contributes the sidebar entry
+# and the panel it opens. Both halves live in this package, so the row carries no
+# configuration.
+- insert:
+    - id: skill-mcp-workbench
+      name: 'dsh-skill-mcp-workbench'

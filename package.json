@@ -1,0 +1,42 @@
+{
+  "name": "dsh-skill-mcp-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Skill and MCP workbench for the DeepSeek Harness Web sidebar: browse every skill the Harness and the machine expose, import or create your own, and configure and connect MCP servers.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "lib/host/*.js",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/*.spec.mjs"
+  }
+}

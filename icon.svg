@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" role="img" aria-label="Skill and MCP workbench">
+  <title>Skill &amp; MCP Workbench</title>
+  <path d="M24 13.05C21 10.26 16.5 8.94 12.36 9.36C9.9 9.6 8.58 10.65 8.58 12.06V36.6C8.58 37.8 9.6 38.49 10.8 38.34C15.18 37.89 20.34 39.06 24 41.7" stroke="#679EFE" stroke-width="3"/>
+  <path d="M24 13.05C27 10.26 31.5 8.94 35.64 9.36C38.1 9.6 39.42 10.65 39.42 12.06V36.6C39.42 37.8 38.4 38.49 37.2 38.34C32.82 37.89 27.66 39.06 24 41.7" stroke="#679EFE" stroke-width="3"/>
+  <path d="M24 13.05V41.7" stroke="#679EFE" stroke-width="3"/>
+</svg>
